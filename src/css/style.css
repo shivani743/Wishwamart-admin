@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply relative z-1 bg-whiten font-satoshi text-base font-normal text-body;
+    }
+}
+
+body {
+    color: rgb(var(--htmlForeground-rgb));
+    font-family: "Rubik", sans-serif !important;
+  }
+  
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
+  }
+  h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  span {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .mainbg {
+    background-color: #f2f2f2;
+  }
+  
+  .font-rubik {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .font-Exo {
+    font-family: "Exo 2", sans-serif !important;
+  }
+  
+  .theme-bg-blue {
+    background-color: #1e3454;
+  }
+  
+  .theme-yellow-bg {
+    background: #FFF6E8;
+  }
+  
+  .theme-text-color {
+    color: #1e3454;
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 100% !important;
+    }
+  }
+  @media (min-width: 640px) {
+    .container {
+      max-width: 100% !important;
+    }
+  }
+  
+  /*# sourceMappingURL=globals.css.map */
+
+  .ql-editor{
+    min-height: 200px;
+
+  }
